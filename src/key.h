@@ -111,7 +111,7 @@ protected:
     bool fSet;
     bool fCompressedPubKey;
 
-    // MaxCoin
+    // Schoolcoin
     bool secretKeySet;
     bool publicKeySet;
 

@@ -381,7 +381,7 @@ Value getreceivedbyaddress(const Array& params, bool fHelp)
             "getreceivedbyaddress <maxcoinaddress> [minconf=1]\n"
             "Returns the total amount received by <maxcoinaddress> in transactions with at least [minconf] confirmations.");
 
-    // MaxCoin address
+    // Schoolcoin address
     CBitcoinAddress address = CBitcoinAddress(params[0].get_str());
     CScript scriptPubKey;
     if (!address.IsValid())

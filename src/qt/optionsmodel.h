@@ -26,7 +26,7 @@ public:
         ProxyPort,         // int
         ProxySocksVersion, // int
         Fee,               // qint64
-        DisplayUnit,       // MaxCoinUnits::Unit
+        DisplayUnit,       // SchoolcoinUnits::Unit
         DisplayAddresses,  // bool
         Language,          // QString
         OptionIDRowCount,

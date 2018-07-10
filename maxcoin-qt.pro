@@ -1,6 +1,6 @@
 TEMPLATE = app
-TARGET = maxcoin-qt
-macx:TARGET = "MaxCoin-Qt"
+TARGET = schoolcoin-qt
+macx:TARGET = “Schoolcoin-Qt"
 VERSION = 0.9.4.1
 INCLUDEPATH += src src/json src/qt
 QT += network
