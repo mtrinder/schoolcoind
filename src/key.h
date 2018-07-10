@@ -130,6 +130,8 @@ protected:
 
     void LoadCurve();
 
+    void PrintInteger(CryptoPP::Integer i);
+
 public:
     void SetCompressedPubKey(bool fCompressed = true);
 

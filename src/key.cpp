@@ -25,7 +25,7 @@ Integer CKey::HashPointMessage(const ECPPoint& R,
 
     byte digest[digestsize];
     sha.Final(digest);
-    
+
     Integer ans;
     ans.Decode(digest, digestsize);
     return ans;
@@ -248,3 +248,14 @@ bool CKey::IsValid()
     key2.SetSecret(secret, fCompr);
     return GetPubKey() == key2.GetPubKey();
 }
+
+void CKey::PrintInteger(CryptoPP::Integer i)
+{
+    ostringstream oss;
+    oss << std::hex << i;
+    string str = oss.str();
+    str = str.substr(0, str.size()-1);
+
+    printf("%s", str.c_str());
+}
+
