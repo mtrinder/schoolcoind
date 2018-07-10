@@ -31,3 +31,5 @@
 *.out
 *.app
 *.user
+build-maxcoin-qt-Desktop_Qt_5_10_1_clang_64bit-Debug
+src/qt/locale
