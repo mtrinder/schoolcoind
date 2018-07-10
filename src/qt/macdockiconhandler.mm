@@ -80,11 +80,11 @@ void MacDockIconHandler::setIcon(const QIcon &icon)
     if (icon.isNull())
         image = [[NSImage imageNamed:@"NSApplicationIcon"] retain];
     else {
-        QSize size = icon.actualSize(QSize(128, 128));
-        QPixmap pixmap = icon.pixmap(size);
-        CGImageRef cgImage = pixmap.toMacCGImageRef();
-        image = [[NSImage alloc] initWithCGImage:cgImage size:NSZeroSize];
-        CFRelease(cgImage);
+//        QSize size = icon.actualSize(QSize(128, 128));
+//        QPixmap pixmap = icon.pixmap(size);
+//        CGImageRef cgImage = pixmap.toMacCGImageRef();
+//        image = [[NSImage alloc] initWithCGImage:cgImage size:NSZeroSize];
+//        CFRelease(cgImage);
     }
 
     [NSApp setApplicationIconImage:image];
