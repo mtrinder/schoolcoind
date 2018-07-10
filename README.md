@@ -1,7 +1,7 @@
-What is MaxCoin?
+What is Schoolcoin?
 ==============
 
-Maxcoin is an alternative cryptocurrency introduced in 2014.
+Schoolcoin is an alternative cryptocurrency introduced in 2018. Derived from Maxcoin.
 
 Technical Information
 
@@ -24,7 +24,7 @@ Modifications to the RPC API
 
 Additional technical details can be found in the [Wiki](https://github.com/Max-Coin/maxcoin/wiki/_pages).
 
-Forked from Bitcoin reference wallet 0.8.5 and Blakecoin
+Maxcoin was forked from Bitcoin reference wallet 0.8.5 and Blakecoin
 
 License
 ------
