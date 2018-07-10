@@ -37,9 +37,9 @@ CTxMemPool mempool;
 unsigned int nTransactionsUpdated = 0;
 
 map<uint256, CBlockIndex*> mapBlockIndex;
-uint256 hashGenesisBlock("0x0000002d0f86558a6e737a3a351043ee73906fe077692dfaa3c9328aaca21964");
-static const unsigned int timeGenesisBlock = 1390822264;
-static const unsigned int nNonceGenesisBlock = 11548217;
+uint256 hashGenesisBlock("0x000000af55d94af949acb7587bb4e1dd75da95dc54431498b949d43d49386346");
+static const unsigned int timeGenesisBlock = 1530854341;
+static const unsigned int nNonceGenesisBlock = 13180567;
 static CBigNum bnProofOfWorkLimit(~uint256(0) >> 24);
 CBlockIndex* pindexGenesisBlock = NULL;
 int nBestHeight = -1;
@@ -2907,7 +2907,7 @@ bool InitBlockIndex() {
     // Only add the genesis block if not reindexing (in which case we reuse the one already on disk)
     if (!fReindex) {
         // Genesis block
-        const char* pszTimestamp = "Shape-shifting software defends against botnet hacks";
+        const char* pszTimestamp = "Vitalik Buterin:I definitely hope centralized exchanges go burn in hell as much as possible";
         CTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
@@ -2968,7 +2968,7 @@ bool InitBlockIndex() {
             block.print();
         }
 
-        assert(block.hashMerkleRoot == uint256("0xf8cc3b46c273a488c318dc7d98cc053494af2871e495e17f5c7c246055e46af3"));
+        assert(block.hashMerkleRoot == uint256("0x6b233b3fde70fe8133e6a340d62b97523e6308145bf29bda8e278600dfad35c3"));
         assert(hash == hashGenesisBlock);
 
         // Start new block file
