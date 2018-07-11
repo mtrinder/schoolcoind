@@ -24,12 +24,12 @@ SignVerifyMessageDialog::SignVerifyMessageDialog(QWidget *parent) :
 
 #if (QT_VERSION >= 0x040700)
     /* Do not move this to the XML file, Qt before 4.7 will choke on it */
-    ui->addressIn_SM->setPlaceholderText(tr("Enter a MaxCoin address (e.g. mhN8btKtp3HrXgZJwyBakUzALLZ34nA4J)"));
+    ui->addressIn_SM->setPlaceholderText(tr("Enter a Schoolcoin address (e.g. ShN8btKtp3HrXgZJwyBakUzALLZ34nA4J)"));
     ui->pubkeyOut_SM->setPlaceholderText(tr("Click \"Sign Message\" to view public key"));
     ui->signatureOut_SM->setPlaceholderText(tr("Click \"Sign Message\" to generate signature"));
 
     ui->pubkeyIn_VM->setPlaceholderText(tr("Enter the public key used for signing"));
-    ui->signatureIn_VM->setPlaceholderText(tr("Enter MaxCoin signature"));
+    ui->signatureIn_VM->setPlaceholderText(tr("Enter Schoolcoin signature"));
 #endif
 
     GUIUtil::setupAddressWidget(ui->addressIn_SM, this);

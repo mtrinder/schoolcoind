@@ -22,7 +22,7 @@ public:
     qint64 amount;
 };
 
-/** Interface to MaxCoin wallet from Qt view code. */
+/** Interface to Schoolcoin wallet from Qt view code. */
 class WalletModel : public QObject
 {
     Q_OBJECT

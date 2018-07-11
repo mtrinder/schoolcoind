@@ -4,13 +4,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About MaxCoin</source>
-        <translation>Sobre MaxCoin</translation>
+        <source>About Schoolcoin</source>
+        <translation>Sobre Schoolcoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;MaxCoin&lt;/b&gt; version</source>
-        <translation>Versão do &lt;b&gt;MaxCoin&lt;/b&gt;</translation>
+        <source>&lt;b&gt;Schoolcoin&lt;/b&gt; version</source>
+        <translation>Versão do &lt;b&gt;Schoolcoin&lt;/b&gt;</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -34,8 +34,8 @@ Este produto inclui software desenvolvido pelo Projecto OpenSSL para uso no Open
     </message>
     <message>
         <location line="+0"/>
-        <source>The MaxCoin developers</source>
-        <translation>Os programadores MaxCoin</translation>
+        <source>The Schoolcoin developers</source>
+        <translation>Os programadores Schoolcoin</translation>
     </message>
 </context>
 <context>
@@ -67,8 +67,8 @@ Este produto inclui software desenvolvido pelo Projecto OpenSSL para uso no Open
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your MaxCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Estes são os seus endereços MaxCoin para receber pagamentos. Poderá enviar um endereço diferente para cada remetente para poder identificar os pagamentos.</translation>
+        <source>These are your Schoolcoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Estes são os seus endereços Schoolcoin para receber pagamentos. Poderá enviar um endereço diferente para cada remetente para poder identificar os pagamentos.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="+14"/>
@@ -82,8 +82,8 @@ Este produto inclui software desenvolvido pelo Projecto OpenSSL para uso no Open
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a MaxCoin address</source>
-        <translation>Assine uma mensagem para provar que é dono de um endereço MaxCoin</translation>
+        <source>Sign a message to prove you own a Schoolcoin address</source>
+        <translation>Assine uma mensagem para provar que é dono de um endereço Schoolcoin</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -107,8 +107,8 @@ Este produto inclui software desenvolvido pelo Projecto OpenSSL para uso no Open
     </message>
     <message>
         <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified MaxCoin address</source>
-        <translation>Verifique a mensagem para assegurar que foi assinada com o endereço MaxCoin especificado</translation>
+        <source>Verify a message to ensure it was signed with a specified Schoolcoin address</source>
+        <translation>Verifique a mensagem para assegurar que foi assinada com o endereço Schoolcoin especificado</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -122,8 +122,8 @@ Este produto inclui software desenvolvido pelo Projecto OpenSSL para uso no Open
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your MaxCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Estes são os seus endereços MaxCoin para enviar pagamentos. Verifique sempre o valor e a morada de envio antes de enviar moedas.</translation>
+        <source>These are your Schoolcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Estes são os seus endereços Schoolcoin para enviar pagamentos. Verifique sempre o valor e a morada de envio antes de enviar moedas.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -275,8 +275,8 @@ Este produto inclui software desenvolvido pelo Projecto OpenSSL para uso no Open
     </message>
     <message>
         <location line="-56"/>
-        <source>MaxCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
-        <translation>O cliente MaxCoin irá agora ser fechado para terminar o processo de encriptação. Recorde que a encriptação da sua carteira não protegerá totalmente os seus bitcoins de serem roubados por programas maliciosos que infectem o seu computador.</translation>
+        <source>Schoolcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
+        <translation>O cliente Schoolcoin irá agora ser fechado para terminar o processo de encriptação. Recorde que a encriptação da sua carteira não protegerá totalmente os seus bitcoins de serem roubados por programas maliciosos que infectem o seu computador.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -374,8 +374,8 @@ Este produto inclui software desenvolvido pelo Projecto OpenSSL para uso no Open
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about MaxCoin</source>
-        <translation>Mostrar informação sobre MaxCoin</translation>
+        <source>Show information about Schoolcoin</source>
+        <translation>Mostrar informação sobre Schoolcoin</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -419,12 +419,12 @@ Este produto inclui software desenvolvido pelo Projecto OpenSSL para uso no Open
     </message>
     <message>
         <location line="-347"/>
-        <source>Send coins to a MaxCoin address</source>
+        <source>Send coins to a Schoolcoin address</source>
         <translation>Enviar moedas para um endereço bitcoin</translation>
     </message>
     <message>
         <location line="+49"/>
-        <source>Modify configuration options for MaxCoin</source>
+        <source>Modify configuration options for Schoolcoin</source>
         <translation>Modificar opções de configuração para bitcoin</translation>
     </message>
     <message>
@@ -455,8 +455,8 @@ Este produto inclui software desenvolvido pelo Projecto OpenSSL para uso no Open
     <message>
         <location line="-165"/>
         <location line="+530"/>
-        <source>MaxCoin</source>
-        <translation>MaxCoin</translation>
+        <source>Schoolcoin</source>
+        <translation>Schoolcoin</translation>
     </message>
     <message>
         <location line="-530"/>
@@ -480,8 +480,8 @@ Este produto inclui software desenvolvido pelo Projecto OpenSSL para uso no Open
     </message>
     <message>
         <location line="+22"/>
-        <source>&amp;About MaxCoin</source>
-        <translation>&amp;Sobre o MaxCoin</translation>
+        <source>&amp;About Schoolcoin</source>
+        <translation>&amp;Sobre o Schoolcoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -500,13 +500,13 @@ Este produto inclui software desenvolvido pelo Projecto OpenSSL para uso no Open
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your MaxCoin addresses to prove you own them</source>
-        <translation>Assine mensagens com os seus endereços MaxCoin para provar que os controla</translation>
+        <source>Sign messages with your Schoolcoin addresses to prove you own them</source>
+        <translation>Assine mensagens com os seus endereços Schoolcoin para provar que os controla</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified MaxCoin addresses</source>
-        <translation>Verifique mensagens para assegurar que foram assinadas com o endereço MaxCoin especificado</translation>
+        <source>Verify messages to ensure they were signed with specified Schoolcoin addresses</source>
+        <translation>Verifique mensagens para assegurar que foram assinadas com o endereço Schoolcoin especificado</translation>
     </message>
     <message>
         <location line="+28"/>
@@ -536,13 +536,13 @@ Este produto inclui software desenvolvido pelo Projecto OpenSSL para uso no Open
     </message>
     <message>
         <location line="+47"/>
-        <source>MaxCoin client</source>
-        <translation>Cliente MaxCoin</translation>
+        <source>Schoolcoin client</source>
+        <translation>Cliente Schoolcoin</translation>
     </message>
     <message numerus="yes">
         <location line="+141"/>
-        <source>%n active connection(s) to MaxCoin network</source>
-        <translation><numerusform>%n ligação ativa à rede MaxCoin</numerusform><numerusform>%n ligações ativas à rede MaxCoin</numerusform></translation>
+        <source>%n active connection(s) to Schoolcoin network</source>
+        <translation><numerusform>%n ligação ativa à rede Schoolcoin</numerusform><numerusform>%n ligações ativas à rede Schoolcoin</numerusform></translation>
     </message>
     <message>
         <location line="+22"/>
@@ -656,8 +656,8 @@ Endereço: %4
     <message>
         <location line="-23"/>
         <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid MaxCoin address or malformed URI parameters.</source>
-        <translation>URI não foi lido correctamente! Isto pode ser causado por um endereço MaxCoin inválido ou por parâmetros URI malformados.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid Schoolcoin address or malformed URI parameters.</source>
+        <translation>URI não foi lido correctamente! Isto pode ser causado por um endereço Schoolcoin inválido ou por parâmetros URI malformados.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -671,8 +671,8 @@ Endereço: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. MaxCoin can no longer continue safely and will quit.</source>
-        <translation>Ocorreu um erro fatal. O MaxCoin não pode continuar com segurança e irá fechar.</translation>
+        <source>A fatal error occurred. Schoolcoin can no longer continue safely and will quit.</source>
+        <translation>Ocorreu um erro fatal. O Schoolcoin não pode continuar com segurança e irá fechar.</translation>
     </message>
 </context>
 <context>
@@ -737,7 +737,7 @@ Endereço: %4
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid MaxCoin address.</source>
+        <source>The entered address &quot;%1&quot; is not a valid Schoolcoin address.</source>
         <translation>O endereço introduzido &quot;%1&quot; não é um endereço bitcoin válido.</translation>
     </message>
     <message>
@@ -756,8 +756,8 @@ Endereço: %4
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
-        <source>MaxCoin-Qt</source>
-        <translation>MaxCoin-Qt</translation>
+        <source>Schoolcoin-Qt</source>
+        <translation>Schoolcoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -819,13 +819,13 @@ Endereço: %4
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start MaxCoin after logging in to the system.</source>
-        <translation>Começar o MaxCoin automaticamente ao iniciar sessão no sistema.</translation>
+        <source>Automatically start Schoolcoin after logging in to the system.</source>
+        <translation>Começar o Schoolcoin automaticamente ao iniciar sessão no sistema.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start MaxCoin on system login</source>
-        <translation>&amp;Começar o MaxCoin ao iniciar o sistema</translation>
+        <source>&amp;Start Schoolcoin on system login</source>
+        <translation>&amp;Começar o Schoolcoin ao iniciar o sistema</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -844,7 +844,7 @@ Endereço: %4
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the MaxCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the Schoolcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation>Abrir a porta do cliente bitcoin automaticamente no seu router. Isto penas funciona se o seu router suportar UPnP e este se encontrar ligado.</translation>
     </message>
     <message>
@@ -854,8 +854,8 @@ Endereço: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the MaxCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Ligar à rede MaxCoin através de um proxy SOCKS (p.ex. quando ligar através de Tor).</translation>
+        <source>Connect to the Schoolcoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Ligar à rede Schoolcoin através de um proxy SOCKS (p.ex. quando ligar através de Tor).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -929,8 +929,8 @@ Endereço: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting MaxCoin.</source>
-        <translation>A linguagem da interface do utilizador pode ser definida aqui. Esta definição entrará em efeito após reiniciar o MaxCoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Schoolcoin.</source>
+        <translation>A linguagem da interface do utilizador pode ser definida aqui. Esta definição entrará em efeito após reiniciar o Schoolcoin.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -944,8 +944,8 @@ Endereço: %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show MaxCoin addresses in the transaction list or not.</source>
-        <translation>Se mostrar, ou não, os endereços MaxCoin na lista de transações.</translation>
+        <source>Whether to show Schoolcoin addresses in the transaction list or not.</source>
+        <translation>Se mostrar, ou não, os endereços Schoolcoin na lista de transações.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -996,8 +996,8 @@ Endereço: %4
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting MaxCoin.</source>
-        <translation>Esta opção entrará em efeito após reiniciar o MaxCoin.</translation>
+        <source>This setting will take effect after restarting Schoolcoin.</source>
+        <translation>Esta opção entrará em efeito após reiniciar o Schoolcoin.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1015,8 +1015,8 @@ Endereço: %4
     <message>
         <location line="+50"/>
         <location line="+166"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the MaxCoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>A informação mostrada poderá estar desatualizada. A sua carteira sincroniza automaticamente com a rede MaxCoin depois de estabelecer ligação, mas este processo ainda não está completo.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Schoolcoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>A informação mostrada poderá estar desatualizada. A sua carteira sincroniza automaticamente com a rede Schoolcoin depois de estabelecer ligação, mas este processo ainda não está completo.</translation>
     </message>
     <message>
         <location line="-124"/>
@@ -1069,8 +1069,8 @@ Endereço: %4
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start maxcoin: click-to-pay handler</source>
-        <translation>Impossível começar o modo clicar-para-pagar com maxcoin:</translation>
+        <source>Cannot start schoolcoin: click-to-pay handler</source>
+        <translation>Impossível começar o modo clicar-para-pagar com schoolcoin:</translation>
     </message>
 </context>
 <context>
@@ -1219,8 +1219,8 @@ Endereço: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the MaxCoin-Qt help message to get a list with possible MaxCoin command-line options.</source>
-        <translation>Mostrar a mensagem de ajuda do MaxCoin-Qt para obter uma lista com possíveis opções a usar na linha de comandos.</translation>
+        <source>Show the Schoolcoin-Qt help message to get a list with possible Schoolcoin command-line options.</source>
+        <translation>Mostrar a mensagem de ajuda do Schoolcoin-Qt para obter uma lista com possíveis opções a usar na linha de comandos.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1239,13 +1239,13 @@ Endereço: %4
     </message>
     <message>
         <location line="-104"/>
-        <source>MaxCoin - Debug window</source>
-        <translation>MaxCoin - Janela de depuração</translation>
+        <source>Schoolcoin - Debug window</source>
+        <translation>Schoolcoin - Janela de depuração</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>MaxCoin Core</source>
-        <translation>Núcleo MaxCoin</translation>
+        <source>Schoolcoin Core</source>
+        <translation>Núcleo Schoolcoin</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1254,7 +1254,7 @@ Endereço: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the MaxCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the Schoolcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation>Abrir o ficheiro de registo de depuração da pasta de dados actual. Isto pode demorar alguns segundos para ficheiros de registo maiores.</translation>
     </message>
     <message>
@@ -1264,8 +1264,8 @@ Endereço: %4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the MaxCoin RPC console.</source>
-        <translation>Bem-vindo à consola RPC MaxCoin.</translation>
+        <source>Welcome to the Schoolcoin RPC console.</source>
+        <translation>Bem-vindo à consola RPC Schoolcoin.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1448,8 +1448,8 @@ Endereço: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a MaxCoin address (e.g. mXAdbKFo1vu3Svqt4fWMyZM6jQTMuBR4RG)</source>
-        <translation>Introduza um endereço MaxCoin (p.ex. mXAdbKFo1vu3Svqt4fWMyZM6jQTMuBR4RG)</translation>
+        <source>Enter a Schoolcoin address (e.g. mXAdbKFo1vu3Svqt4fWMyZM6jQTMuBR4RG)</source>
+        <translation>Introduza um endereço Schoolcoin (p.ex. mXAdbKFo1vu3Svqt4fWMyZM6jQTMuBR4RG)</translation>
     </message>
 </context>
 <context>
@@ -1513,8 +1513,8 @@ Endereço: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this MaxCoin address</source>
-        <translation>Assine uma mensagem para provar que é dono deste endereço MaxCoin</translation>
+        <source>Sign the message to prove you own this Schoolcoin address</source>
+        <translation>Assine uma mensagem para provar que é dono deste endereço Schoolcoin</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1549,8 +1549,8 @@ Endereço: %4
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified MaxCoin address</source>
-        <translation>Verifique a mensagem para assegurar que foi assinada com o endereço MaxCoin especificado</translation>
+        <source>Verify the message to ensure it was signed with the specified Schoolcoin address</source>
+        <translation>Verifique a mensagem para assegurar que foi assinada com o endereço Schoolcoin especificado</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1565,8 +1565,8 @@ Endereço: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a MaxCoin address (e.g. mXAdbKFo1vu3Svqt4fWMyZM6jQTMuBR4RG)</source>
-        <translation>Introduza um endereço MaxCoin (p.ex. mXAdbKFo1vu3Svqt4fWMyZM6jQTMuBR4RG)</translation>
+        <source>Enter a Schoolcoin address (e.g. mXAdbKFo1vu3Svqt4fWMyZM6jQTMuBR4RG)</source>
+        <translation>Introduza um endereço Schoolcoin (p.ex. mXAdbKFo1vu3Svqt4fWMyZM6jQTMuBR4RG)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1575,8 +1575,8 @@ Endereço: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter MaxCoin signature</source>
-        <translation>Introduza assinatura MaxCoin</translation>
+        <source>Enter Schoolcoin signature</source>
+        <translation>Introduza assinatura Schoolcoin</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -1649,8 +1649,8 @@ Endereço: %4
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+22"/>
-        <source>The MaxCoin developers</source>
-        <translation>Os programadores MaxCoin</translation>
+        <source>The Schoolcoin developers</source>
+        <translation>Os programadores Schoolcoin</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2187,8 +2187,8 @@ Endereço: %4
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+94"/>
-        <source>MaxCoin version</source>
-        <translation>Versão MaxCoin</translation>
+        <source>Schoolcoin version</source>
+        <translation>Versão Schoolcoin</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -2306,7 +2306,7 @@ rpcpassword=%s
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;MaxCoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Schoolcoin Alert&quot; admin@foo.com
 </source>
         <translation>%s, deverá definir rpcpassword no ficheiro de configuração :
  %s
@@ -2317,7 +2317,7 @@ rpcpassword=%s
 O nome de utilizador e password NÃO DEVEM ser iguais.
 Se o ficheiro não existir, crie-o com permissões de leitura apenas para o dono.
 Também é recomendado definir alertnotify para que seja alertado sobre problemas;
-por exemplo: alertnotify=echo %%s | mail -s &quot;Alerta MaxCoin&quot; admin@foo.com
+por exemplo: alertnotify=echo %%s | mail -s &quot;Alerta Schoolcoin&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -2332,8 +2332,8 @@ por exemplo: alertnotify=echo %%s | mail -s &quot;Alerta MaxCoin&quot; admin@foo
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. MaxCoin is probably already running.</source>
-        <translation>Impossível trancar a pasta de dados %s.  Provavelmente o MaxCoin já está a ser executado.</translation>
+        <source>Cannot obtain a lock on data directory %s. Schoolcoin is probably already running.</source>
+        <translation>Impossível trancar a pasta de dados %s.  Provavelmente o Schoolcoin já está a ser executado.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2377,8 +2377,8 @@ por exemplo: alertnotify=echo %%s | mail -s &quot;Alerta MaxCoin&quot; admin@foo
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong MaxCoin will not work properly.</source>
-        <translation>Atenção: Por favor verifique que a data e hora do seu computador estão correctas! Se o seu relógio não estiver certo o MaxCoin não irá funcionar correctamente.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Schoolcoin will not work properly.</source>
+        <translation>Atenção: Por favor verifique que a data e hora do seu computador estão correctas! Se o seu relógio não estiver certo o Schoolcoin não irá funcionar correctamente.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2627,8 +2627,8 @@ por exemplo: alertnotify=echo %%s | mail -s &quot;Alerta MaxCoin&quot; admin@foo
     </message>
     <message>
         <location line="+5"/>
-        <source>SSL options: (see the MaxCoin Wiki for SSL setup instructions)</source>
-        <translation>Opções SSL: (ver a Wiki MaxCoin para instruções de configuração SSL)</translation>
+        <source>SSL options: (see the Schoolcoin Wiki for SSL setup instructions)</source>
+        <translation>Opções SSL: (ver a Wiki Schoolcoin para instruções de configuração SSL)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2817,13 +2817,13 @@ por exemplo: alertnotify=echo %%s | mail -s &quot;Alerta MaxCoin&quot; admin@foo
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of MaxCoin</source>
-        <translation>Erro ao carregar wallet.dat: A Carteira requer uma versão mais recente do MaxCoin</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Schoolcoin</source>
+        <translation>Erro ao carregar wallet.dat: A Carteira requer uma versão mais recente do Schoolcoin</translation>
     </message>
     <message>
         <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart MaxCoin to complete</source>
-        <translation>A Carteira precisou ser reescrita: reinicie o MaxCoin para completar</translation>
+        <source>Wallet needed to be rewritten: restart Schoolcoin to complete</source>
+        <translation>A Carteira precisou ser reescrita: reinicie o Schoolcoin para completar</translation>
     </message>
     <message>
         <location line="-95"/>
@@ -2882,8 +2882,8 @@ por exemplo: alertnotify=echo %%s | mail -s &quot;Alerta MaxCoin&quot; admin@foo
     </message>
     <message>
         <location line="-25"/>
-        <source>Unable to bind to %s on this computer. MaxCoin is probably already running.</source>
-        <translation>Incapaz de vincular à porta %s neste computador.  Provavelmente o MaxCoin já está a funcionar.</translation>
+        <source>Unable to bind to %s on this computer. Schoolcoin is probably already running.</source>
+        <translation>Incapaz de vincular à porta %s neste computador.  Provavelmente o Schoolcoin já está a funcionar.</translation>
     </message>
     <message>
         <location line="+64"/>

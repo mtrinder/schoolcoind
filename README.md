@@ -20,9 +20,7 @@ Notable differences from Bitcoin
 Modifications to the RPC API
 + verifymessage <publickey> <signature> <message>
 + makekeypair [hex-encoded prefix]
-+ dumppubkey <maxcoinaddress>
-
-Additional technical details can be found in the [Wiki](https://github.com/Max-Coin/maxcoin/wiki/_pages).
++ dumppubkey <schoolcoinaddress>
 
 Maxcoin was forked from Bitcoin reference wallet 0.8.5 and Blakecoin
 

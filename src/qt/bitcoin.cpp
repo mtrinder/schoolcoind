@@ -103,7 +103,7 @@ static void InitMessage(const std::string &message)
  */
 static std::string Translate(const char* psz)
 {
-    return QCoreApplication::translate("maxcoin-core", psz).toStdString();
+    return QCoreApplication::translate("schoolcoin-core", psz).toStdString();
 }
 
 /* Handle runaway exceptions. Shows a message box with the problem and quits the program.
@@ -111,7 +111,7 @@ static std::string Translate(const char* psz)
 static void handleRunawayException(std::exception *e)
 {
     PrintExceptionContinue(e, "Runaway exception");
-    QMessageBox::critical(0, "Runaway exception", BitcoinGUI::tr("A fatal error occurred. MaxCoin can no longer continue safely and will quit.") + QString("\n\n") + QString::fromStdString(strMiscWarning));
+    QMessageBox::critical(0, "Runaway exception", BitcoinGUI::tr("A fatal error occurred. Schoolcoin can no longer continue safely and will quit.") + QString("\n\n") + QString::fromStdString(strMiscWarning));
     exit(1);
 }
 
@@ -142,12 +142,12 @@ int main(int argc, char *argv[])
     // Install global event filter that makes sure that long tooltips can be word-wrapped
     app.installEventFilter(new GUIUtil::ToolTipToRichTextFilter(TOOLTIP_WRAP_THRESHOLD, &app));
 
-    // ... then maxcoin.conf:
+    // ... then schoolcoin.conf:
     if (!boost::filesystem::is_directory(GetDataDir(false)))
     {
         // This message can not be translated, as translation is not initialized yet
-        // (which not yet possible because lang=XX can be overridden in maxcoin.conf in the data directory)
-        QMessageBox::critical(0, "MaxCoin",
+        // (which not yet possible because lang=XX can be overridden in schoolcoin.conf in the data directory)
+        QMessageBox::critical(0, "Schoolcoin",
                               QString("Error: Specified data directory \"%1\" does not exist.").arg(QString::fromStdString(mapArgs["-datadir"])));
         return 1;
     }
@@ -155,12 +155,12 @@ int main(int argc, char *argv[])
 
     // Application identification (must be set before OptionsModel is initialized,
     // as it is used to locate QSettings)
-    QApplication::setOrganizationName("MaxCoin");
-    QApplication::setOrganizationDomain("MaxCoin.org");
+    QApplication::setOrganizationName("Schoolcoin");
+    QApplication::setOrganizationDomain("school-coin.org");
     if(GetBoolArg("-testnet")) // Separate UI settings for testnet
-        QApplication::setApplicationName("MaxCoin-Qt-testnet");
+        QApplication::setApplicationName("Schoolcoin-Qt-testnet");
     else
-        QApplication::setApplicationName("MaxCoin-Qt");
+        QApplication::setApplicationName("Schoolcoin-Qt");
 
     // ... then GUI settings:
     OptionsModel optionsModel;
@@ -280,7 +280,7 @@ int main(int argc, char *argv[])
                 window.removeAllWallets();
                 guiref = 0;
             }
-            // Shutdown the core and its threads, but don't exit MaxCoin-Qt here
+            // Shutdown the core and its threads, but don't exit Schoolcoin-Qt here
             threadGroup.interrupt_all();
             threadGroup.join_all();
             Shutdown();

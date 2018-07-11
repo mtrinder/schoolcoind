@@ -8,7 +8,7 @@ class QDoubleSpinBox;
 class QValueComboBox;
 QT_END_NAMESPACE
 
-/** Widget for entering maxcoin amounts.
+/** Widget for entering schoolcoin amounts.
   */
 class BitcoinAmountField: public QWidget
 {

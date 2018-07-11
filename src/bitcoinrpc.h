@@ -101,7 +101,7 @@ public:
 };
 
 /*
-  MaxCoin RPC command dispatcher.
+  Schoolcoin RPC command dispatcher.
  */
 class CRPCTable
 {

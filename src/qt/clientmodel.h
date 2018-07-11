@@ -20,7 +20,7 @@ enum BlockSource {
     BLOCK_SOURCE_NETWORK
 };
 
-/** Model for MaxCoin network client. */
+/** Model for Schoolcoin network client. */
 class ClientModel : public QObject
 {
     Q_OBJECT

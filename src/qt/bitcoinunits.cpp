@@ -45,9 +45,9 @@ QString BitcoinUnits::description(int unit)
 {
     switch(unit)
     {
-    case MAX: return QString("MaxCoins");
-    case mMAX: return QString("Milli-MaxCoins (1 / 1,000)");
-    case uMAX: return QString("Micro-MaxCoins (1 / 1,000,000)");
+    case MAX: return QString("Schoolcoins");
+    case mMAX: return QString("Milli-Schoolcoins (1 / 1,000)");
+    case uMAX: return QString("Micro-Schoolcoins (1 / 1,000,000)");
     default: return QString("???");
     }
 }

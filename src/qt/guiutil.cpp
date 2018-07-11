@@ -84,8 +84,8 @@ void setupAmountWidget(QLineEdit *widget, QWidget *parent)
 
 bool parseBitcoinURI(const QUrl &uri, SendCoinsRecipient *out)
 {
-    // return if URI is not valid or is no maxcoin URI
-    if(!uri.isValid() || uri.scheme() != QString("maxcoin"))
+    // return if URI is not valid or is no schoolcoin URI
+    if(!uri.isValid() || uri.scheme() != QString("schoolcoin"))
         return false;
 
     SendCoinsRecipient rv;
@@ -137,13 +137,13 @@ bool parseBitcoinURI(const QUrl &uri, SendCoinsRecipient *out)
 
 bool parseBitcoinURI(QString uri, SendCoinsRecipient *out)
 {
-    // Convert maxcoin:// to maxcoin:
+    // Convert schoolcoin:// to schoolcoin:
     //
-    //    Cannot handle this later, because maxcoin:// will cause Qt to see the part after // as host,
+    //    Cannot handle this later, because schoolcoin:// will cause Qt to see the part after // as host,
     //    which will lower-case it (and thus invalidate the address).
-    if(uri.startsWith("maxcoin://"))
+    if(uri.startsWith("schoolcoin://"))
     {
-        uri.replace(0, 10, "maxcoin:");
+        uri.replace(0, 10, "schoolcoin:");
     }
     QUrl uriInstance(uri);
     return parseBitcoinURI(uriInstance, out);
@@ -298,12 +298,12 @@ bool ToolTipToRichTextFilter::eventFilter(QObject *obj, QEvent *evt)
 #ifdef WIN32
 boost::filesystem::path static StartupShortcutPath()
 {
-    return GetSpecialFolderPath(CSIDL_STARTUP) / "MaxCoin.lnk";
+    return GetSpecialFolderPath(CSIDL_STARTUP) / "Schoolcoin.lnk";
 }
 
 bool GetStartOnSystemStartup()
 {
-    // check for MaxCoin.lnk
+    // check for Schoolcoin.lnk
     return boost::filesystem::exists(StartupShortcutPath());
 }
 
@@ -380,7 +380,7 @@ boost::filesystem::path static GetAutostartDir()
 
 boost::filesystem::path static GetAutostartFilePath()
 {
-    return GetAutostartDir() / "maxcoin.desktop";
+    return GetAutostartDir() / "schoolcoin.desktop";
 }
 
 bool GetStartOnSystemStartup()
@@ -418,10 +418,10 @@ bool SetStartOnSystemStartup(bool fAutoStart)
         boost::filesystem::ofstream optionFile(GetAutostartFilePath(), std::ios_base::out|std::ios_base::trunc);
         if (!optionFile.good())
             return false;
-        // Write a maxcoin.desktop file to the autostart directory:
+        // Write a schoolcoin.desktop file to the autostart directory:
         optionFile << "[Desktop Entry]\n";
         optionFile << "Type=Application\n";
-        optionFile << "Name=MaxCoin\n";
+        optionFile << "Name=Schoolcoin\n";
         optionFile << "Exec=" << pszExePath << " -min\n";
         optionFile << "Terminal=false\n";
         optionFile << "Hidden=false\n";
@@ -442,10 +442,10 @@ bool SetStartOnSystemStartup(bool fAutoStart) { return false; }
 HelpMessageBox::HelpMessageBox(QWidget *parent) :
     QMessageBox(parent)
 {
-    header = tr("MaxCoin-Qt") + " " + tr("version") + " " +
+    header = tr("Schoolcoin-Qt") + " " + tr("version") + " " +
         QString::fromStdString(FormatFullVersion()) + "\n\n" +
         tr("Usage:") + "\n" +
-        "  maxcoin-qt [" + tr("command-line options") + "]                     " + "\n";
+        "  schoolcoin-qt [" + tr("command-line options") + "]                     " + "\n";
 
     coreOptions = QString::fromStdString(HelpMessage());
 
@@ -454,7 +454,7 @@ HelpMessageBox::HelpMessageBox(QWidget *parent) :
         "  -min                   " + tr("Start minimized") + "\n" +
         "  -splash                " + tr("Show splash screen on startup (default: 1)") + "\n";
 
-    setWindowTitle(tr("MaxCoin-Qt"));
+    setWindowTitle(tr("Schoolcoin-Qt"));
     setTextFormat(Qt::PlainText);
     // setMinimumWidth is ignored for QMessageBox so put in non-breaking spaces to make it wider.
     setText(header + QString(QChar(0x2003)).repeated(50));
