@@ -272,10 +272,10 @@ class CBitcoinAddress : public CBase58Data
 public:
     enum
     {
-        PUBKEY_ADDRESS = 110, // m
-        SCRIPT_ADDRESS = 112, // n
-        PUBKEY_ADDRESS_TEST = 127, // t
-        SCRIPT_ADDRESS_TEST = 130, // u
+        PUBKEY_ADDRESS = 63, // S
+        SCRIPT_ADDRESS = 68, // U
+        PUBKEY_ADDRESS_TEST = 135, // w
+        SCRIPT_ADDRESS_TEST = 140, // y
     };
 
     bool Set(const CKeyID &id) {
