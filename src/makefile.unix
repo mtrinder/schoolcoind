@@ -148,10 +148,10 @@ OBJS= \
     obj/checkpointsync.o
 
 
-all: obj maxcoind
+all: obj schoolcoind
 
-test check: test_maxcoin FORCE
-	./test_maxcoin
+test check: test_schoolcoin FORCE
+	./test_schoolcoin
 
 #
 # LevelDB support
@@ -193,7 +193,7 @@ obj:
 cryptopp/libcryptopp.a:
 	@$(MAKE) -C cryptopp static
 
-maxcoind: $(OBJS:obj/%=obj/%)
+schoolcoind: $(OBJS:obj/%=obj/%)
 	$(LINK) $(xCXXFLAGS) -o $@ $^ $(xLDFLAGS) $(LIBS)
 
 TESTOBJS := $(patsubst test/%.cpp,obj-test/%.o,$(wildcard test/*.cpp))
@@ -205,11 +205,11 @@ obj-test/%.o: test/%.cpp
 	      -e '/^$$/ d' -e 's/$$/ :/' < $(@:%.o=%.d) >> $(@:%.o=%.P); \
 	  rm -f $(@:%.o=%.d)
 
-test_maxcoin: $(TESTOBJS) $(filter-out obj/init.o,$(OBJS:obj/%=obj/%))
+test_schoolcoin: $(TESTOBJS) $(filter-out obj/init.o,$(OBJS:obj/%=obj/%))
 	$(LINK) $(xCXXFLAGS) -o $@ $(LIBPATHS) $^ $(TESTLIBS) $(xLDFLAGS) $(LIBS)
 
 clean:
-	-rm -f maxcoind test_maxcoin
+	-rm -f schoolcoind test_schoolcoin
 	-rm -f obj/*.o
 	-rm -f obj-test/*.o
 	-rm -f obj/*.P

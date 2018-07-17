@@ -1,4 +1,4 @@
-Creating the MaxCoin Windows Installer
+Creating the Schoolcoin Windows Installer
 ======================================
 
 The installer is created using the NullSoft Installer System, or NSIS. This compiles the maxcoin.nsi file to create a single, executable installer. The installer takes the required DLL files, the command-line and the graphical versions of the MaxCoin wallet, a README, a license and an icon as inputs, some of which have been provided. The DLLs are dependant upon the build environment used and should be modified as required.
