@@ -2247,8 +2247,8 @@ Dirección: %4</translation>
     </message>
     <message>
         <location line="-28"/>
-        <source>Listen for connections on &lt;port&gt; (default: 8669 or testnet: 18669)</source>
-        <translation>Escuchar por conecciones en &lt;puerto&gt; (Por defecto: 8669 o red de prueba: 18669)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 8663 or testnet: 18663)</source>
+        <translation>Escuchar por conecciones en &lt;puerto&gt; (Por defecto: 8663 o red de prueba: 18663)</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -2282,8 +2282,8 @@ Dirección: %4</translation>
     </message>
     <message>
         <location line="+27"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 8669 or testnet: 18669)</source>
-        <translation>Escucha conexiones JSON-RPC en el puerto &lt;port&gt; (predeterminado: 8669 or testnet: 18669)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 8663 or testnet: 18663)</source>
+        <translation>Escucha conexiones JSON-RPC en el puerto &lt;port&gt; (predeterminado: 8663 or testnet: 18663)</translation>
     </message>
     <message>
         <location line="+37"/>
