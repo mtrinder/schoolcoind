@@ -34,9 +34,9 @@ QString BitcoinUnits::name(int unit)
 {
     switch(unit)
     {
-    case MAX: return QString("MAX");
-    case mMAX: return QString("mMAX");
-    case uMAX: return QString::fromUtf8("μMAX");
+    case MAX: return QString("SCL");
+    case mMAX: return QString("mSCL");
+    case uMAX: return QString::fromUtf8("μSCL");
     default: return QString("???");
     }
 }

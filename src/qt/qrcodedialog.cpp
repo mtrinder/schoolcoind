@@ -47,7 +47,7 @@ void QRCodeDialog::setModel(OptionsModel *model)
     if (model)
         connect(model, SIGNAL(displayUnitChanged(int)), this, SLOT(updateDisplayUnit()));
 
-    // update the display unit, to not use the default ("MAX")
+    // update the display unit, to not use the default ("SCL")
     updateDisplayUnit();
 }
 
