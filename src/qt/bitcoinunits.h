@@ -20,8 +20,8 @@ public:
     enum Unit
     {
         MAX,
-        mMAX,
-        uMAX
+        //mMAX,
+        //uMAX
     };
 
     //! @name Static API

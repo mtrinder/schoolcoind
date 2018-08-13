@@ -87,7 +87,7 @@ void SendCoinsEntry::clear()
     ui->addAsLabel->clear();
     ui->payAmount->clear();
     ui->payTo->setFocus();
-    // update the display unit, to not use the default ("SCL")
+    // update the display unit, to not use the default ("KOIN")
     updateDisplayUnit();
 }
 

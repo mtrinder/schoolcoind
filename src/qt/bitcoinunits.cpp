@@ -34,9 +34,9 @@ QString BitcoinUnits::name(int unit)
 {
     switch(unit)
     {
-    case MAX: return QString("SCL");
-    case mMAX: return QString("mSCL");
-    case uMAX: return QString::fromUtf8("μSCL");
+    case MAX: return QString("KOIN");
+    case mMAX: return QString("mKOIN");
+    case uMAX: return QString::fromUtf8("μKOIN");
     default: return QString("???");
     }
 }
@@ -45,9 +45,9 @@ QString BitcoinUnits::description(int unit)
 {
     switch(unit)
     {
-    case MAX: return QString("Schoolcoins");
-    case mMAX: return QString("Milli-Schoolcoins (1 / 1,000)");
-    case uMAX: return QString("Micro-Schoolcoins (1 / 1,000,000)");
+    case MAX: return QString("School Koin");
+    case mMAX: return QString("Milli School Koin (1 / 1,000)");
+    case uMAX: return QString("Micro School Koin (1 / 1,000,000)");
     default: return QString("???");
     }
 }
